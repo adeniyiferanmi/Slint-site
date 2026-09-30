@@ -11,7 +11,8 @@ export const offices = [
     label: "Head Office",
     city: "Ibadan",
     state: "Oyo State",
-    address: "Suite 4, Ring Road Plaza, Challenge, Ibadan, Oyo State",
+    address:
+      "2nd Floor, Remilekun House, Adamasingba, 72 Adekunle Fajuyi Rd, Dugbe, Ibadan 200281, Oyo",
   },
   {
     label: "Branch Office",
@@ -41,4 +42,4 @@ export const socials = [
 ];
 
 export const mapEmbedUrl =
-  "https://maps.google.com/maps?q=Challenge%2C%20Ibadan%2C%20Oyo%20State%2C%20Nigeria&z=14&output=embed";
+  "https://maps.google.com/maps?q=2nd%20Floor%2C%20Remilekun%20House%2C%20Adamasingba%2C%2072%20Adekunle%20Fajuyi%20Rd%2C%20Dugbe%2C%20Ibadan%20200281%2C%20Oyo&z=14&output=embed";
