@@ -18,7 +18,7 @@ export function Logo({ size = "header" }) {
     <img
       src="/download__2_-removebg-preview.png"
       alt="Slint Fly — Breaking Limits"
-      className="h-25 w-auto sm:h-24"
+      className="h-[90px] w-auto max-lg:h-20"
     />
   );
 }
