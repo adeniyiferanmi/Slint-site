@@ -74,7 +74,7 @@ export function Header() {
           <CtaButton
             to="/contact"
             size="sm"
-            className="px-3.5 sm:h-11 sm:px-5 sm:text-[15px]"
+            className="px-3.5 sm:h-11 sm:px-5 sm:text-[15px] max-sm:hidden"
           >
             Talk to an Expert
           </CtaButton>
@@ -83,7 +83,7 @@ export function Header() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Chat on WhatsApp"
-            className="flex h-10 w-10 items-center justify-center rounded-full bg-whatsapp-tint text-whatsapp-dark transition-colors duration-150 hover:bg-whatsapp hover:text-white lg:hidden"
+            className="flex h-10 w-10 max-sm:hidden items-center justify-center rounded-full bg-whatsapp-tint text-whatsapp-dark transition-colors duration-150 hover:bg-whatsapp hover:text-white lg:hidden"
           >
             <WhatsAppIcon className="h-5 w-5" />
           </a>

@@ -7,16 +7,16 @@ export function Logo({ size = "header" }) {
     return (
       <span className="inline-flex rounded-2xl  shadow-soft">
         <img
-          src="/download__3_-removebg-preview.png"
+          src="/WhatsApp Image 2026-10-02 at 1.08.08 PM.jpeg"
           alt="Slint Fly — Breaking Limits"
-          className="h-40 w-auto"
+          className="h-40 w-auto rounded-2xl"
         />
       </span>
     );
   }
   return (
     <img
-      src="/download__2_-removebg-preview.png"
+      src="/SLINT FLY LOGO.png"
       alt="Slint Fly — Breaking Limits"
       className="h-[90px] w-auto max-lg:h-20"
     />
